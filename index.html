@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>파이썬 채팅</title>
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+  <h2>채팅방 코드:</h2>
+  <input id="room" placeholder="방 코드 입력">
+  <button onclick="joinRoom()">입장</button>
+
+  <div id="chat" style="display:none;">
+    <div id="messages"></div>
+    <input id="msg" placeholder="메시지">
+    <button onclick="sendMsg()">보내기</button>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
